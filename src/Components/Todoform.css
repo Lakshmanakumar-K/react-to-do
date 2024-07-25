@@ -1,0 +1,41 @@
+.todoform_flex {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.todoform_child {
+    width: 90%;
+    text-align: center;
+    color: green;
+}
+
+.todoform_child2 {
+    margin: 20px;
+}
+
+.todoform_input {
+    border-radius: 3px;
+    width: 30%;
+    font-size: 10px;
+    height: 20px;
+    border: 1px solid green
+}
+
+.todoform_button {
+    border-radius: 3px;
+    background-color: green;
+    color: white;
+    width: 10%;
+    border: none;
+    cursor: pointer;
+    font-size: 10px;
+    height: 20px;
+}
+
+.todoform_flex2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
